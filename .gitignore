@@ -1,15 +1,26 @@
+# Gradle
+.gradle/
+build/
+
+# Android Studio
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# Local configuration
 local.properties
+
+# APKs
+*.apk
+
+# App bundles
+*.aab
+
+# Release outputs
+app/release/
+
+# Baseline profiles
+*.dm
+baselineProfiles/
+
+# Logs
+*.log
